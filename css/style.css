@@ -7,6 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #e4e1e1;
 }
+
 h1 {
   font-size: 24px;
   margin: auto;
@@ -15,6 +16,7 @@ h1 {
   padding: 16px;
   width: 250px;
 }
+
 img {
   display: block;
   margin: 30px auto;
@@ -22,14 +24,20 @@ img {
   width: 150px;
   border-radius: 50%;
 }
+
 h2 {
   font-weight: normal;
+  padding: 16px;
+
+  width: 350px;
+  margin: auto;
 }
 
 h3 {
   margin-left: 30%;
   margin-bottom: 50px;
 }
+
 .capslock {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -40,6 +48,7 @@ h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
 ul {
   list-style-type: none;
   margin-left: 30%;
@@ -50,19 +59,78 @@ li {
   color: #676363;
   font-size: 15px;
 }
+
 dfn {
   font-style: italic;
   display: block;
   margin-top: 8px
 }
+
 #popisok {
   margin: 60px 25% 100px 25%;
   text-align: center;
   font-style: italic;
+  line-height: 20px;
+  padding-bottom: 16px;
+
 }
+
 .text {
   text-transform: none;
-  color:black;
+  color: black;
   font-size: 13px;
   margin-bottom: 40px;
 }
+
+.ohranicenie {
+  border-bottom: 1px solid black;
+}
+
+.sidebar,
+.float {
+  float: left;
+}
+
+.sidebar {
+  width: 300px;
+  margin-left: 20%;
+}
+
+.float {
+  width: 500px;
+  margin-left: 20%;
+}
+
+.content {
+  max-width: 1200px;
+}
+
+.box {
+  background: #ffffff;
+  border-bottom: 1px solid #706e6e;
+  margin-bottom: 40px;
+}
+aside h2 {
+  font-weight: 800;
+font-family: Georgia, Times, serif;
+}
+
+aside a {
+  text-decoration: none;
+  color: #da1e18;
+  text-align: left;
+  font-size: 28px;
+
+}
+.sidebar li {
+  margin-left: 20px;
+  padding: 5px 0;
+  display: block;
+  width: 180px;
+  border-bottom: 1px solid black;
+}
+.sidebar ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
