@@ -2,6 +2,8 @@ body {
   background: #e4e1e1;
   color: #5D5D5D;
   font-family: Source Sans Pro, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .group:before,
@@ -104,4 +106,48 @@ h2 {
   font-weight: 700;
 display: inline-block;
   margin: -10px auto 0 auto;
+}
+.pre-footer {
+  background: #252122;
+  color: #858484;
+  padding: 60px 0;
+}
+
+.pre-footer h2{
+  color:white;
+  margin-top: 20px;
+}
+
+.column {
+  float: left;
+  width: 350px;
+  margin-right: 40px;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+.about h3 a{
+  color:red;
+  margin-left: 20px;
+}
+
+.about > h3 {
+  text-align: center;
+  font-size: 24px;
+  color:black;
+}
+
+.about {
+  width: 700px;
+  margin: 60px auto;
+}
+.author {
+  border-radius: 50%;
+  float: left;
+  border: 10px solid white;
+}
+.inside p{
+ margin-left: 160px;
 }
