@@ -1,0 +1,54 @@
+body {
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.container {
+  background: #d5d0d0;
+  padding: 10px;
+}
+.header-top h1{
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+}
+
+form input {
+  width: 250px;
+  height: 30px;
+  border:1px solid #bdb7b7;
+  border-radius: 6px;
+}
+form label {
+  display: block;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 3px;
+
+}
+
+.form-group {
+
+  margin: 10px 20px;
+  width: 250px;
+}
+
+.form-group textarea {
+  width: 540px;
+  border:1px solid #bdb7b7;
+  border-radius: 6px;
+}
+.left {
+  float: left;
+}
